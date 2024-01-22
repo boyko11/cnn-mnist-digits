@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cnn-mnist-digits"
+packages = [{include = "cnn-mnist-digits"}]
+version = "0.1.0"
+description = "Boyko's toy CNN refresher"
+authors = ["boyko <boyko.todorov@mantiumai.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.2"
+torch-vision = "^0.1.6.dev0"
+pillow = "^10.2.0"
+six = "^1.16.0"
+lmdb = "^1.4.1"
+numpy = "^1.26.3"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
